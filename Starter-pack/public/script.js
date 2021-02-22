@@ -3,7 +3,7 @@
     function compareUserGuess(event) {
         event.preventDefault();
         var secretNumber = generateSecretNumber();
-        var userNumber = document.getElementById('guess').value;
+        var userNumber = parseFloat(document.getElementById('guess').value);
         if (secretNumber == userNumber) {
             alert("Awesome! You number " + userNumber + " was correct. You can be named many things, hungry not being one of them.");
         }

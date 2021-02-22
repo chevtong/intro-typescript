@@ -5,7 +5,7 @@
         event.preventDefault();
 
         const secretNumber = generateSecretNumber();
-        const userNumber = document.getElementById('guess').value;
+        const userNumber = parseFloat((<HTMLInputElement>document.getElementById('guess')).value);
 
         if (secretNumber == userNumber) {
             alert("Awesome! You number " + userNumber + " was correct. You can be named many things, hungry not being one of them.");

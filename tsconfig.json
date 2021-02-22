@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./Starter-pack/public",
+    "allowJs": true,
+    "target": "es5",
+  },
+  "include": ["./Starter-pack/src/**/*"]
+}

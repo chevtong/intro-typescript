@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./Starter-pack/public",
+    
     "allowJs": true,
     "target": "es5",
   },
